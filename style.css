@@ -1,0 +1,34 @@
+/* Basic styles for the container */
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #00cc2c; /* Change to a blue border */
+    border-radius: 8px;
+    background-color: #faffe6; /* Light blue background color */
+  }
+  
+  /* Title section styling */
+  .title-line {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 1.2em;
+    padding: 10px;
+    color: #00665c; /* Dark blue text color for the title */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Form group spacing */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Disabled input styling */
+  input[disabled] {
+    background-color: #d9d9d9; /* Slightly darker gray background for disabled inputs */
+    color: #333; /* Darker text color for better readability */
+  }
+  
